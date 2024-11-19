@@ -19,24 +19,24 @@ if opt==1:
 
     if oprator=='*':
         ans=num1*num2
-        print(ans)
+        print(f" Multiplication :{ans}")
     elif oprator=='/':
         ans=num1/num2
-        print(ans)
+        print(f" division :{ans}")
     elif oprator=='+':
         ans=num1+num2
-        print(ans)
+        print(f" Addition :{ans}")
     elif oprator=='-':
-        sum=num1-num2
-        print(ans)
+        ans=num1-num2
+        print(f" subtraction :{ans}")
 elif opt== 2:
     radius=int(input('enter radius: '))
     ans =3.142*radius**2
-    print(ans)
+    print(f"Area of Circle is :{ans}")
 elif opt== 3:
     tem1=int(input('temperature in fahrenheit: '))
     tem2=(tem1-32)*5/9
-    print(f'{tem2}C')
+    print(f'{tem2}C in celsius')
 elif opt== 4:
     num=int(input('enter a number: '))
     if num%2 == 0:
@@ -48,4 +48,4 @@ elif opt==5:
     fac=1
     for i in range(1,num+1):
        fac*=i
-    print(fac)
+    print(f"{fac} factorial of {num}")
