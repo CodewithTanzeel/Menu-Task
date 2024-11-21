@@ -1,5 +1,4 @@
 # ROLL NO: BSE - 192
-
 opt=int(input('''please select your option in number:
 1.calculator
 2.area of circle
